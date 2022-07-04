@@ -1,0 +1,176 @@
+<html>
+  <style>
+
+@import url("https://fonts.googleapis.com/css2?family=Outfit&display=swap");
+
+    html {
+      background-color: hsl(217, 54%, 11%);
+    }
+
+    h3 {
+      color: white;
+      font-size: 22px;
+      font-family: 'Outfit';
+      font-weight: 600;
+      padding-left: 5%;
+    }
+
+    #description {
+      color: hsl(215, 51%, 70%);
+      font-size: 18px;
+      font-family: 'Outfit';
+      font-weight: 400;
+      padding-left: 5%;
+      padding-right: 5%;
+      text-align: start;
+    }
+
+    .container {
+      height: 681.78px;
+      width: 421.78px;
+      border: solid 2px hsl(216, 50%, 16%);
+      background-color: hsl(216, 50%, 16%);
+      border-radius: 15px;
+    }
+
+    .container img {
+      height: 375px;
+      width: 375px;
+      padding-left: 5%;
+      padding-top: 5%;
+    }
+
+    .NFTImage {
+        border: solid 1px hsl(216, 50%, 16%);
+        border-radius: 5px;
+    }
+
+    #NFTBox {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding-top: 5%;
+    }
+
+    span .ETHicon {
+      height: 20px;
+      width: auto;
+      float: left;
+      margin-right: 3mm;
+    }
+
+    span .ETHtext {
+      float: left;
+      font-size: 18px;
+      font-family: 'Outfit';
+      font-weight: 600;
+      padding-top: 1mm;
+      color: hsl(178, 100%, 50%);
+    }
+
+    span .Clock {
+      height: 20px;
+      width: auto;
+      margin-left: 0;
+      padding-left: 150px;
+    }
+
+    span .Clocktext {
+      float: right;
+      font-size: 18px;
+      font-family: 'Outfit';
+      font-weight: 400;
+      color: hsl(215, 51%, 70%);
+      text-align: right;
+      padding-top: 1mm;
+      padding-right: 1cm;
+    }
+
+    .credit {
+        width: 390px;
+        position: relative;
+        border-top:hsl(215, 51%, 70%) 1px solid;
+        left: 15px;
+        top: 15px;
+    }
+
+    .credit .JulesAv {
+      height: 40px;
+      width: auto;
+      border: solid white 2px;
+      border-radius: 50%;
+      padding: 0;
+    }
+
+    .credit .creditText {
+        color:hsl(215, 51%, 70%);
+        font-size: 18px;
+        font-family: 'Outfit';
+        font-weight: 300;
+    }
+
+    .credit a {
+        text-decoration: none;
+        color: white;
+    }
+
+    .credit a:hover {
+        text-decoration: underline;
+        color: hsl(178, 100%, 50%);
+    }
+
+    .credit img {
+        position: relative;
+        left: -105px;
+        top: 25px;
+    }
+
+    .credit p {
+        position: relative;
+        left: 85px;
+        bottom: 25px;
+    }
+
+  </style>
+
+  <div id="NFTBox">
+    <section class="container">
+      <img
+        src="C:\Users\Josh\Documents\Code\nft-preview-card-component-main\images\image-equilibrium.jpg"
+        alt="Equilibrium NFT"
+        class="NFTImage"
+      />
+      <caption>
+        <h3>Equilibrium #3429</h3>
+        <p id="description">
+          Our Equilibrium collection promotes balance and calm.
+        </p>
+      </caption>
+      <span>
+        <img
+          src="C:\Users\Josh\Documents\Code\nft-preview-card-component-main\images\icon-ethereum.svg"
+          alt="Ethereum icon"
+          class="ETHicon"
+        />
+        <p class="ETHtext">0.041 ETH</p>
+        <img
+          src="C:\Users\Josh\Documents\Code\nft-preview-card-component-main\images\icon-clock.svg"
+          alt="Clock icon"
+          class="Clock"
+        />
+        <p class="Clocktext">3 days left</p>
+      </span>
+
+      <div class="credit">
+        <img
+          src="C:\Users\Josh\Documents\Code\nft-preview-card-component-main\images\image-avatar.png"
+          alt="Jules Wyvern Avatar"
+          class="JulesAv"
+        />
+        <p class="creditText">
+          Creation of <a href="" target="_blank">Jules Wyvern</a>
+        </p>
+      </div>
+    </section>
+  </div>
+</html>
